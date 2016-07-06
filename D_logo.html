@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<title>会员登录</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/D_logo.css">
+	</head>
+		<div class="container">
+			<header class="header">
+				<a href="D_login.html" class="icon-angle-left"></a>
+				<h1>会员登录</h1>
+			</header>
+			<div class="main" id="main">
+				<section class="index">
+					<div class="logo">
+						<div class="logoImg">
+							<img src="img/yiguo_logo.png" alt="" />
+						</div>
+					</div>
+					<form action="">
+						<p><span></span><input type="text" placeholder="请输入用户名" /></p>
+						<p><span></span><input type="text" placeholder="请输入密码" /></p>
+					</form>
+					<div class="dwp"><a href="#">忘记密码?</a></div>
+					<div class="Btn">
+						<button id="loginBtn">登录</button>
+						<button id="reBtn">立即注册</button>
+					</div>
+					<div class="sina">
+						<dl>
+							<dt>----------- 合作账号登录 -----------</dt>
+							<dd>
+								<a href="#"></a>
+								<a href="#"></a>
+							</dd>
+						</dl>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="js/zepto.min.js"></script>
+		<script src="js/iscroll4.js"></script>
+		<script>
+			var menuPage = new iScroll("main", {
+				onBeforeScrollStart: function(e) {
+					var tagName = e.target.nodeName.toLowerCase();
+					if (tagName != "input" && tagName != "select" && tagName != "textarea" && tagName != "a") {
+						e.preventDefault();
+					}
+				}
+			})
+		</script>
+	<body>
+	</body>
+</html>

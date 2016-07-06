@@ -1,0 +1,96 @@
+.main {
+  -webkit-flex: 1;
+  background: #f4f4f2; }
+  .main .logo {
+    width: 96%;
+    height: 0.8rem;
+    margin-left: 2%;
+    margin-right: 2%; }
+    .main .logo .leftLogo {
+      float: left;
+      margin-top: 0.3rem; }
+      .main .logo .leftLogo .logoImg {
+        float: left;
+        width: 0.33rem;
+        height: 0.36rem;
+        background: url(../img/icon.png) no-repeat;
+        background-size: 100%;
+        background-position: 0 -0.45rem; }
+      .main .logo .leftLogo h1 {
+        float: left;
+        font-size: 0.20rem;
+        margin-left: 0.05rem; }
+    .main .logo .rightFont {
+      float: right; }
+      .main .logo .rightFont p {
+        margin-top: 0.5rem; }
+  .main .qq {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+    border: 1px solid #e7e7e7; }
+    .main .qq p {
+      height: 0.4rem;
+      border-bottom: 1px solid #e7e7e7;
+      padding-left: 0.1rem; }
+      .main .qq p input {
+        border: none;
+        height: 0.38rem; }
+  .main .btn {
+    width: 100%; }
+    .main .btn button {
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+      height: 0.36rem;
+      background: #73c629;
+      color: #fff;
+      font-size: 0.16rem; }
+  .main .yiguo {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.3rem; }
+    .main .yiguo p {
+      line-height: 0.4rem;
+      color: #666; }
+    .main .yiguo .yiguoList {
+      width: 100%;
+      background: #fff;
+      border-radius: 5px; }
+      .main .yiguo .yiguoList li {
+        height: 0.39rem;
+        line-height: 0.39rem;
+        border-bottom: 1px solid #e7e7e7;
+        padding-left: 0.1rem;
+        color: #555555; }
+    .main .yiguo .control {
+      width: 100%;
+      height: 0.4rem;
+      background: #fff;
+      line-height: 0.4rem;
+      color: #555555; }
+      .main .yiguo .control span:first-child {
+        display: block;
+        width: 0.13rem;
+        height: 0.13rem;
+        background: url("../img/icon.png") no-repeat;
+        background-size: 200%;
+        background-position: 0 -0.22rem;
+        float: left;
+        margin-top: 0.1rem;
+        margin-left: 40%;
+        margin-right: 0.05rem; }
+  .main .copy {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.28rem; }
+    .main .copy p {
+      text-align: center;
+      color: #666; }
+
+/*# sourceMappingURL=D_qqlogin.css.map */

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/A_all.css">
+    <link rel="stylesheet" type="text/css" href="../css/A_index.css">
+  <title>新手步骤</title>
+</head>
+<body>
+    <div class="container">
+          <header class="A_lizhi">
+          
+          </header>
+          <section class="wrap">
+           <!--  <ul class="A_tab">
+             <li class="green">商品介绍</li>
+             <li>商品属性</li>
+           </ul>
+              <div id="A_TAB"> -->
+                  <div class="A_tb">
+                      <img src="../img/p1.jpg" alt="" class="A_a">
+                      <img src="../img/p2.jpg" alt="" class="A_a">
+                      <div class="Agese">
+                           <p class="A_tel"> <input type="tel" id="tel"></p>
+                           <a href="#"><img src="../img/btn.png" class="img"></a>
+                      </div>
+                      <img src="../img/p4.jpg" alt="" class="A_a">
+                      <div class="Agese1" id="Agese1">
+                          <ul >
+                            <li>sui****89 领到30元券 我就是抢枪不说话</li>
+                            <li>hong*8 领到30元券 世界这么大 我想去买买</li>
+                            <li>153*****098 领到30元券</li>
+                            <li>lbx**23 领到30元券</li>
+                            <li>h2ng*8 领到30元券 世界这么大 我想去买买</li>
+                            <li>h3ng*8 领到30元券 世界这么大 我想去买买</li>
+                            <li>ho2ng*8 领到30元券 世界这么大 我想去买买</li>
+                          </ul>
+                      </div>
+                      <img src="../img/p5.jpg" alt="" class="A_a">
+                      <img src="../img/p6.jpg" alt="" class="A_a">
+                  </div>
+         
+
+          </section>
+          <!-- <footer class="foot">
+             <nav>
+              <a href="">首页</a>
+              <a href="">分类</a>
+              <a href="">购物车</a>
+              <a href="">我的易果</a>
+             </nav>
+          </footer> -->
+      </div>
+ <script type="text/javascript" src="../js/zepto.min.js"></script>
+  <script type="text/javascript" src="../js/address.js"></script>
+   <script type="text/javascript" src="../js/address1.js"></script> 
+   <script type="text/javascript" src="../js/A_js.js"></script>
+ 
+ <script>
+    var box=document.getElementById("Agese1")
+    var timer=null
+    var i=0
+    var f=box.children[0]
+  
+
+  function gun(){
+  if(i<-10){
+    f.appendChild(f.children[0])
+    f.children[0].style.marginTop=0
+    i=0
+
+  }
+  else{
+    // f.children[0]   li 移动
+    f.children[0].style.marginTop=i--+10+"px";
+    setTimeout(gun,10)
+  }
+  } 
+  timer=setInterval(gun,2000)
+
+  
+</script>
+</body>
+</html>

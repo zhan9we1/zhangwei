@@ -1,0 +1,89 @@
+.main {
+  background: #FAFDFC; }
+  .main .logo {
+    width: 100%;
+    height: 1.62rem;
+    background: #E6F6EF;
+    overflow: hidden; }
+    .main .logo .logo_login {
+      width: 1.05rem;
+      height: 1.05rem;
+      margin: 0.2rem auto;
+      position: relative; }
+      .main .logo .logo_login a {
+        display: block; }
+        .main .logo .logo_login a img {
+          position: absolute;
+          top: 15%;
+          left: 15%;
+          width: 70%; }
+      .main .logo .logo_login .mark {
+        position: absolute;
+        background: url("../img/myyg-bg.png") no-repeat;
+        background-size: 100%;
+        width: 1.05rem;
+        height: 1.05rem;
+        left: 0;
+        right: 0; }
+  .main .money {
+    width: 100%;
+    height: 0.45rem;
+    border-bottom: 1px solid #E1E5E5; }
+    .main .money ul {
+      width: 100%;
+      display: -webkit-flex; }
+      .main .money ul li {
+        color: #1D9557;
+        -webkit-flex-grow: 1;
+        text-align: center;
+        font-size: 0.14rem;
+        line-height: 0.22rem; }
+        .main .money ul li span {
+          display: block;
+          line-height: 0.22rem;
+          font-size: 0.16rem; }
+  .main .myList {
+    width: 94%; }
+    .main .myList .my_list {
+      display: -webkit-flex;
+      width: 100%;
+      margin: 15% 3%; }
+      .main .myList .my_list:nth-of-type(1) dl:nth-of-type(1) dt a {
+        background-position: 0 0; }
+      .main .myList .my_list:nth-of-type(1) dl:nth-of-type(2) dt a {
+        background-position: -0.4rem 0; }
+      .main .myList .my_list:nth-of-type(1) dl:nth-of-type(3) dt a {
+        background-position: -0.8rem 0; }
+      .main .myList .my_list:nth-of-type(2) dl:nth-of-type(1) dt a {
+        background-position: -1.2rem 0; }
+      .main .myList .my_list:nth-of-type(2) dl:nth-of-type(2) dt a {
+        background-position: -1.6rem 0; }
+      .main .myList .my_list:nth-of-type(2) dl:nth-of-type(3) dt a {
+        background-position: -2rem 0; }
+      .main .myList .my_list dl {
+        -webkit-flex-grow: 1;
+        text-align: center; }
+        .main .myList .my_list dl dt {
+          width: 0.4rem;
+          height: 0.4rem;
+          margin: 0 auto; }
+          .main .myList .my_list dl dt a {
+            width: 0.4rem;
+            height: 0.4rem;
+            display: block;
+            background: url(../img/icon-usercenter.png) no-repeat;
+            background-size: 600%; }
+        .main .myList .my_list dl dd {
+          line-height: 0.30rem;
+          height: 0.30rem;
+          color: #858686; }
+  .main .phoneBtn {
+    width: 60%;
+    height: 0.37rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    border: 1px solid #E3E6E8;
+    margin: 0 20%;
+    color: #53AF80; }
+
+/*# sourceMappingURL=D_login.css.map */

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<title>QQ登录</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/D_qqlogin.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="main">
+				<section class="index">
+					<div class="logo">
+						<div class="leftLogo">
+							<div class="logoImg"></div>
+							<h1>QQ登录</h1>
+						</div>
+						<div class="rightFont">
+							<p>亿万用户已选择QQ账号登录应用</p>
+						</div>
+					</div>
+					<div class="qq">
+						<p><input type="number" placeholder="QQ账号/邮箱/手机号"/></p>
+						<p><input type="text" placeholder="QQ密码"/></p>
+					</div>
+					<div class="btn">
+						<button>登录</button>
+					</div>
+					<div class="yiguo">
+						<p>易果网将获得以下权限:</p>
+						<ul class="yiguoList">
+							<li><span class="ico_authorize"></span><span>访问你的详细资料（已选）</span></li>
+							<li><span class="ico_authorize"></span><span>访问你的腾讯微博资料</span></li>
+							<li><span class="ico_authorize"></span><span>分享内容到腾讯微博</span></li>
+							<li><span class="ico_authorize"></span><span>获得你的微博好友信息</span></li>
+							<li><span class="ico_authorize"></span><span>关注该网站认证空间</span></li>
+						</ul>
+						<div class="control">
+							<span class="con"></span>
+							<span class="text">收起</span>
+						</div>
+					</div>
+					<div class="copy">
+						<p>Copyright @ 2010 - 2015 Tencent. All Rights ReserVed</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script>
+			$(function(){
+				$(".con").on("click",function(){
+					var txt=$(".control span:last-child").text();
+					if(txt=="查看全部"){
+						$(".yiguoList li").show();
+						$(".control .text ").text("收起");
+						$(".control .con").css({
+							"backgroundPosition":"0 -0.22rem"
+						})
+					}else if(txt=="收起"){
+						$(".yiguoList li").hide();
+						$(".yiguoList li:first-child").show();
+						
+						$(".control .text ").text("查看全部");
+						$(".control .con").css({
+							"backgroundPosition":"0 -0.08rem"
+						})
+						
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

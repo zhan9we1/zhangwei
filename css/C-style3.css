@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 100; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+
+li {
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #F8F8F8; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.footer {
+  width: 100%;
+  height: 50px;
+  padding-top: 3px;
+  border-top: 1px solid #d2d2d0; }
+  .footer ul {
+    display: -webkit-flex;
+    width: 100%;
+    height: 100%; }
+    .footer ul li {
+      -webkit-flex: 1; }
+      .footer ul li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #8D8A8A; }
+      .footer ul li .shouye span {
+        background: url(../images/btn-tabs.png) no-repeat 0 0;
+        background-size: 100px auto;
+        display: block;
+        width: 25px;
+        height: 22px;
+        margin: 3px auto; }
+      .footer ul li .fenlei span {
+        background: url(../images/btn-tabs.png) no-repeat -25px 0px;
+        background-size: 100px auto;
+        display: block;
+        width: 25px;
+        height: 22px;
+        margin: 3px auto; }
+      .footer ul li .gouwuche {
+        color: #008842; }
+        .footer ul li .gouwuche span {
+          background: url(../images/btn-tabs.png) no-repeat -50px -22px;
+          background-size: 100px auto;
+          display: block;
+          width: 25px;
+          height: 22px;
+          margin: 3px auto; }
+      .footer ul li .wode span {
+        background: url(../images/btn-tabs.png) no-repeat -75px 0;
+        background-size: 100px auto;
+        display: block;
+        width: 25px;
+        height: 22px;
+        margin: 3px auto; }
+
+.wrap {
+  -webkit-flex: 1;
+  background: white; }
+
+.page3-kong {
+  width: 100%;
+  height: 100%; }
+  .page3-kong img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px; }
+  .page3-kong p {
+    font-size: 16px;
+    text-align: center;
+    color: #008842;
+    margin-top: 15px; }
+  .page3-kong a {
+    font-size: 16px;
+    color: #008842;
+    border: 1px solid #008842;
+    border-radius: 8px;
+    padding: 10px 15px;
+    display: block;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px; }
+
+/*# sourceMappingURL=style3.css.map */

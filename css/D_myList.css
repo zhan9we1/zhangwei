@@ -1,0 +1,22 @@
+.header a:last-child {
+  font-size: 0.14rem; }
+
+.main {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .main .order {
+    width: 100%; }
+    .main .order ul {
+      width: 100%;
+      height: 0.45rem;
+      display: -webkit-flex; }
+      .main .order ul li {
+        -webkit-flex-grow: 1;
+        line-height: 0.45rem;
+        text-align: center;
+        border-bottom: 1px solid #858585; }
+  .main .myOrder {
+    text-align: center;
+    -webkit-flex: 1; }
+
+/*# sourceMappingURL=D_myList.css.map */

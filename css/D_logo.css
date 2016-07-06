@@ -1,0 +1,94 @@
+.main {
+  background: #F8F8F8; }
+  .main .logo {
+    width: 100%;
+    height: 0.96rem; }
+    .main .logo .logoImg {
+      width: 0.99rem;
+      margin: 0.42rem auto; }
+      .main .logo .logoImg img {
+        width: 100%; }
+  .main form {
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+    .main form p {
+      width: 96%;
+      height: 0.47rem;
+      margin-left: 4%; }
+      .main form p:first-child {
+        border-bottom: 1px solid #ccc; }
+        .main form p:first-child span {
+          -webkit-box-pack: center;
+          background: url(../img/icon_username.png) no-repeat;
+          background-size: 100%; }
+      .main form p:last-child span {
+        -webkit-box-pack: center;
+        background: url(../img/icon_password.png) no-repeat;
+        background-size: 100%; }
+      .main form p span {
+        float: left;
+        display: block;
+        width: 0.2rem;
+        height: 0.3rem;
+        margin-right: 0.1rem;
+        margin-top: 0.13rem; }
+      .main form p input {
+        float: left;
+        border: none;
+        height: 0.45rem;
+        font-size: 0.14rem;
+        color: #928F8F; }
+  .main .dwp {
+    width: 100%;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    padding-left: 0.2rem; }
+    .main .dwp a {
+      color: #41A571;
+      font-size: 0.14rem; }
+  .main .Btn {
+    width: 100%;
+    display: -webkit-flex;
+    margin-top: 3%; }
+    .main .Btn button {
+      height: 0.33rem;
+      border-radius: 0.05rem; }
+    .main .Btn #loginBtn {
+      -webkit-flex-grow: 1;
+      margin: 5%;
+      color: #fff;
+      background: #008842; }
+    .main .Btn #reBtn {
+      -webkit-flex-grow: 1;
+      margin: 5%;
+      border: 1px solid #008842;
+      background: #fff;
+      color: #008842; }
+  .main .sina {
+    width: 100%;
+    margin-top: 5%; }
+    .main .sina dl {
+      width: 100%; }
+      .main .sina dl dt {
+        text-align: center;
+        line-height: 0.4rem;
+        color: #717171;
+        font-weight: 100; }
+      .main .sina dl dd {
+        display: -webkit-flex;
+        margin-top: 5%; }
+        .main .sina dl dd a {
+          -webkit-flex-grow: 1;
+          display: block;
+          width: 0.63rem;
+          height: 0.63rem; }
+          .main .sina dl dd a:first-child {
+            background: url(../img/login-qq.png) no-repeat center;
+            background-size: auto 100%; }
+          .main .sina dl dd a:last-child {
+            background: url(../img/login-weibo.png) no-repeat center;
+            background-size: auto 100%; }
+
+/*# sourceMappingURL=D_logo.css.map */

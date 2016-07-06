@@ -1,0 +1,47 @@
+
+{
+	"pingjia":[
+		{
+			"name":"20***",
+			"time":"2013-10-13",
+			"star":"../images/stars.png",
+			"content":"用户未及时做出评价,系统默认好评!"
+		},
+		{
+			"name":"16***",
+			"time":"2016-11-13",
+			"star":"../images/stars.png",
+			"content":"用户未及时做出评价,系统默认好评!"
+		},
+		{
+			"name":"sh***",
+			"time":"2015-01-11",
+			"star":"../images/stars.png",
+			"content":"很大的格子，炖汤很好，鲜美有营养。再次买了！"
+		},
+		{
+			"name":"ra***",
+			"time":"2018-01-11",
+			"star":"../images/stars.png",
+			"content":"小奶酪非常好吃，很适合宝宝！"
+		},
+		{
+			"name":"20***",
+			"time":"2018-01-11",
+			"star":"../images/stars.png",
+			"content":"很大的格子，炖汤很好，鲜美有营养。再次买了！"
+		},
+		{
+			"name":"23***",
+			"time":"2017-01-11",
+			"star":"../images/stars.png",
+			"content":"用户未及时做出评价,系统默认好评!"
+		},
+		{
+			"name":"ra***",
+			"time":"2012-01-11",
+			"star":"../images/stars.png",
+			"content":"用户未及时做出评价,系统默认好评!"
+		}
+	]
+}

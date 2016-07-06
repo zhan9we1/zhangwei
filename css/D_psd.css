@@ -1,0 +1,52 @@
+.main {
+  -webkit-flex: 1;
+  background: #f8f8f8; }
+  .main form {
+    margin-top: 0.3rem;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    background: #fff; }
+    .main form p {
+      display: block;
+      width: 96%;
+      margin-left: 4%;
+      height: 0.6rem;
+      border-bottom: 1px solid #e7e7e7; }
+      .main form p input {
+        border: none;
+        height: 0.58rem;
+        font-size: 0.16rem;
+        color: #b1a9bb;
+        font-weight: bolder; }
+      .main form p button {
+        width: 0.85rem;
+        height: 0.29rem;
+        float: right;
+        color: #fff;
+        background: #008842;
+        border-radius: 5px;
+        margin: 0.15rem; }
+      .main form p:last-child {
+        border-bottom: none; }
+  .main .btn {
+    width: 100%;
+    margin: 0.3rem 0;
+    display: -webkit-flex; }
+    .main .btn button {
+      width: 90%;
+      height: 0.4rem;
+      margin: 0 5%;
+      border-radius: 5px; }
+    .main .btn #backBtn {
+      -webkit-flex-grow: 1;
+      background: #fff;
+      color: #008842;
+      border: 1px solid #e7e7e7; }
+    .main .btn #sureBtn {
+      -webkit-flex-grow: 1;
+      background: #008842;
+      color: #fff;
+      border: 1px solid #008842; }
+
+/*# sourceMappingURL=D_psd.css.map */

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/A_all.css">
+    <link rel="stylesheet" type="text/css" href="../css/A_index.css">
+	<title>新手步骤</title>
+</head>
+<body>
+	  <div class="container">
+	  	    <header class="A_lizhi">
+	  	    
+	  	    </header>
+	        <section class="wrap">
+	        	<ul class="A_tab">
+	  	    		<li class="green">默认</li>
+	  	    		<li class="price">价格∧</li>
+	  	    		<li>热销</li>
+	  	    	</ul>
+               <div id="A_TAB">
+               	  <div class="A_tb A_tb1">
+
+               	  	   <a href="#">
+               	  	   	  <div class="A_hn">
+               	  	   	  </div>
+               	  	   </a>  
+               	  </div>
+               	  <div class="A_tb A_tb2">
+               		 
+               	</div>
+               	<div class="A_tb A_tb3">
+               		  
+               	</div> 
+               </div>
+
+	        </section>
+	        <footer class="foot">
+	        	 <nav>
+	        	  <a href="../C-index.html">首页</a>
+              <a href="../C-index2.html">分类</a>
+              <a href="../C-index3.html">购物车</a>
+              <a href="../C-index4.html">我的易果</a>
+	        	 </nav>
+	        </footer>
+      </div>
+ <script type="text/javascript" src="../js/zepto.min.js"></script>
+  <script src="../js/handlebars-v4.0.5.js"></script>
+  <script src="../js/Newshou.js"></script>
+ <script type="text/javascript" src="../js/address.js"></script>
+ <script type="text/javascript" src="../js/address1.js"></script>
+ <script type="text/javascript" src="../js/A_js.js"></script>
+
+<script id="moban1" type="text/x-handlebars-template">
+     {{#each lizhi}}
+     <a href="B_details.html">
+       <div class="A_hn">
+            <dl class="A_dl">
+                <dt><img src={{img}}></dt>
+                <dd>
+                     <h6>{{title}}</h6>
+                     <p class="zhuanxiang">
+                     {{#if zhuanimg}}
+                         <img src={{zhuanimg}}>
+                     {{/if}}
+                    </p>
+                     <p>￥{{xianjia}} <del>{{yuanjia}}</del><em>{{weight}}</em></p>
+                </dd>
+            </dl>
+            <p class="A_shopping">购物</p>
+       </div>
+     </a>
+  {{/each}}
+  </script>
+
+<script id="moban2" type="text/x-handlebars-template">
+     {{#each this}}
+     <a href="#">
+       <div class="A_hn">
+            <dl class="A_dl">
+                <dt><img src={{img}}></dt>
+                <dd>
+                     <h6>{{title}}(北京)</h6>
+                     <p class="zhuanxiang">
+                     {{#if zhuanimg}}
+                         <img src={{zhuanimg}}>
+                     {{/if}}
+                    </p>
+                     <p>{{xianjia}} <del>{{yuanjia}}</del><em>{{weight}}</em></p>
+                </dd>
+            </dl>
+            <p class="A_shopping">购物</p>
+       </div>
+     </a>
+  {{/each}}
+  </script>
+
+</body>
+</html>

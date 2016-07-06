@@ -1,0 +1,316 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, * {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif; }
+
+a, img {
+  -webkit-touch-callout: none; }
+
+html, body {
+  -webkit-user-select: none;
+  user-select: none; }
+
+a, button, input, optgroup, select, textarea {
+  -webkit-tap-highlight-color: transparent; }
+
+input::-webkit-input-placeholder {
+  color: #ccc; }
+
+input:focus::-webkit-input-placeholder {
+  color: #f00; }
+
+body {
+  -webkit-text-size-adjust: 100% !important; }
+
+input::-webkit-input-speech-button {
+  display: none; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 100px;
+  background: #f8f8f8; }
+
+.container {
+  position: relative; }
+
+.hui {
+  background: #eeeeee; }
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.A_shopCat {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.A_yuan {
+  font-size: 13px;
+  margin-top: 0.2rem; }
+
+.A_jian {
+  width: 0.2rem;
+  height: 0.2rem;
+  border: 0.01rem #ccc solid;
+  text-align: center;
+  background: #fff;
+  outline: none; }
+
+.A_txt {
+  width: 0.22rem;
+  height: 0.22rem;
+  border: 0.01rem #ccc solid;
+  text-align: center; }
+
+.A_jia {
+  width: 0.2rem;
+  height: 0.2rem;
+  border: 0.01rem #ccc solid;
+  text-align: center;
+  background: #fff;
+  outline: none; }
+
+.A_add {
+  margin-top: 0.1rem; }
+
+.A_clear {
+  width: 0.22rem;
+  height: 0.39rem;
+  background: url(../img/icon_delete.png) no-repeat;
+  background-size: 100%;
+  font-size: 0;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.3rem; }
+
+.A_delete {
+  width: 100%;
+  height: 0.35rem;
+  margin-top: 0.2rem; }
+  .A_delete span {
+    display: block;
+    width: 1.22rem;
+    height: 0.35rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #008842;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    line-height: 0.35rem; }
+
+.A_total {
+  width: 100%;
+  height: 0.5rem;
+  border-top: 1px #ccc solid;
+  position: absolute;
+  bottom: 0.5rem;
+  display: -webkit-flex; }
+
+.A_le {
+  width: 70%;
+  height: 100%;
+  padding: 0.1rem 0.15rem;
+  background: #fff; }
+  .A_le p {
+    font-size: 13px; }
+    .A_le p span {
+      color: #fb3d3d; }
+
+.A_ri {
+  width: 30%;
+  height: 100%;
+  background: #fff; }
+
+.A_qjs {
+  font-size: 13px;
+  display: block;
+  outline: none;
+  background: #fb3d3d;
+  border: none;
+  color: #fff;
+  width: 90%;
+  height: 70%;
+  margin-top: 0.07rem; }
+
+.A_tjdd {
+  font-size: 13px;
+  display: block;
+  outline: none;
+  background: #999;
+  border: none;
+  color: #fff;
+  width: 90%;
+  height: 70%;
+  margin-top: 0.07rem; }
+
+.A_shop {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin: 10px 0; }
+  .A_shop li {
+    padding: 0 0.2rem;
+    width: 100%;
+    height: 0.46rem;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    font-size: 13px;
+    display: -webkit-flex;
+    color: #999;
+    line-height: 0.46rem; }
+    .A_shop li span {
+      margin-left: 0.7rem;
+      display: inline-block;
+      width: 55%;
+      text-align: right; }
+    .A_shop li p {
+      margin-top: -0.03rem;
+      margin-left: 0.08rem; }
+    .A_shop li img {
+      display: inline-block;
+      width: 0.175rem;
+      height: 0.175rem;
+      margin-top: 0.1rem; }
+
+.A_beizhu {
+  width: 100%;
+  height: 0.94rem;
+  background: #fff;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  margin: 10px 0;
+  padding: 0.46rem 0 0 0; }
+
+.A_bei {
+  width: 100%;
+  height: 0.45rem;
+  outline: none;
+  border: none;
+  padding: 0 10px;
+  display: block; }
+
+.A_shopCat {
+  overflow-y: scroll; }
+
+.A_beizhuv {
+  width: 100%;
+  height: 0.64rem;
+  background: #fff;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  margin: 10px 0; }
+
+.A_k {
+  font-size: 13px;
+  color: #999; }
+
+.A_beizhu1 {
+  width: 100%;
+  height: 0.94rem;
+  background: #fff;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  margin: 10px 0;
+  padding: 0.1rem; }
+  .A_beizhu1 p {
+    margin-top: 0.1rem; }
+    .A_beizhu1 p span {
+      display: inline-block;
+      width: 70%;
+      text-align: right; }
+  .A_beizhu1 p:nth-of-type(2) span {
+    margin-left: 0.26rem;
+    display: inline-block; }
+  .A_beizhu1 p:nth-of-type(3) span {
+    margin-left: 0.26rem;
+    display: inline-block; }
+
+.A_be {
+  width: 100%;
+  height: 0.64rem;
+  background: #f8f8f8;
+  margin: 10px 0; }
+
+.A_shopp {
+  width: 100%;
+  height: auto;
+  background: #fff; }
+  .A_shopp li {
+    padding: 0 0.2rem;
+    width: 100%;
+    height: 0.46rem;
+    font-size: 13px;
+    line-height: 0.46rem;
+    color: #ccc;
+    border-bottom: 1px #ccc solid;
+    display: -webkit-flex; }
+
+.A_int {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none; }
+
+.A_select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: #ccc; }
+
+.check {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px; }
+
+.check input[type="radio"] + label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px #ccc solid;
+  border-radius: 100%;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center; }
+
+.check input[type="radio"]:checked + label:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/icon_ok2.png) no-repeat;
+  border-radius: 100%;
+  background-size: 100%; }
+
+.check input[type="radio"] {
+  display: none; }
+
+.check {
+  display: inline-block;
+  /* //width: 700px; */ }
+
+/*# sourceMappingURL=A_shoppingCart.css.map */
